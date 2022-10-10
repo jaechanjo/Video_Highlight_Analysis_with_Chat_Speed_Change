@@ -1,0 +1,6 @@
+numpy
+pandas
+matplotlib
+PIL
+scipy
+iteration_utilities
