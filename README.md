@@ -38,8 +38,8 @@ A highlight generation method for personal broadcasting by chatting text scroll 
 
   - Naver Clova AI [CRAFT](https://github.com/clovaai/CRAFT-pytorch), General Model
 
-    <img width="300" alt="teaser" src="./data/result/Text_detection_1.jpg">
-    <img width="140" alt="teaser" src="./data/result/Text_detection_2.jpg">
+    <img width="250" alt="teaser" src="./data/result/Text_detection_1.jpg">
+    <img width="115" alt="teaser" src="./data/result/Text_detection_2.jpg">
 
 ### 2. Coordinate Transformation
 
