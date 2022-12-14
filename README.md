@@ -38,29 +38,30 @@ A highlight generation method for personal broadcasting by chatting text scroll 
 
   - Naver Clova AI [CRAFT](https://github.com/clovaai/CRAFT-pytorch), General Model
 
-    <img width="300" alt="teaser" src="./data/result/Text_detection.jpg">
+    <img width="300" alt="teaser" src="./data/result/method/Text_detection_1.jpg">
+    <img width="300" alt="teaser" src="./data/result/method/Text_detection_2.jpg">
 
 ### 2. Coordinate Transformation
 
   - Convert text area Bounding Box coordinates to (Width, Time, *Normalized_y) form
   
-    <img width="300" alt="teaser" src="./data/result/method/normalized_y_equation.jpg">
+    <img width="300" alt="teaser" src="./data/method/normalized_y_equation.jpg">
 
 ### 3. Chat Scroll Speed
 
   - (distance traveled in a specific chat area) / (time between frames)
   
-    <img width="300" alt="teaser" src="./data/result/method/chat_scroll_speed_equation.jpg">
+    <img width="300" alt="teaser" src="./data/method/chat_scroll_speed_equation.jpg">
   
   * Q. How to distinguish specific chat text area?
   
     - chat text area ID is the `width` of the bounding box
     
-      <img width="300" alt="teaser" src="./data/result/method/text_id_width.jpg">
+      <img width="100" alt="teaser" src="./data/method/text_id_width.jpg">
       
     - To distinguish between overlapping widths, the before and after boxes are also checked
     
-      <img width="300" alt="teaser" src="./data/result/method/before_after_boxes.jpg">
+      <img width="300" alt="teaser" src="./data/method/before_after_boxes.jpg">
       
 
 ## Setup
