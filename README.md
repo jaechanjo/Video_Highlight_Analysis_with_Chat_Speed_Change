@@ -12,13 +12,13 @@ A highlight generation method for personal broadcasting by chatting text scroll 
 
 - Graph
 
-  - <img width="300" alt="teaser" src="./data/result/Video1_highlight_analysis.jpg">
-  - <img width="300" alt="teaser" src="./data/result/Video4_highlight_analysis.jpg">
+  - <img width="400" alt="teaser" src="./data/result/Video1_highlight_analysis.jpg">
+  - <img width="400" alt="teaser" src="./data/result/Video4_highlight_analysis.jpg">
 
 - Table
   - Optimal Parameter(Median, threshold 0.3)
 
-    <img width="300" alt="teaser" src="./data/result/Table_opt_param.jpg">
+    <img width="400" alt="teaser" src="./data/result/Table_opt_param.jpg">
     
   
 ## Method
@@ -27,19 +27,19 @@ A highlight generation method for personal broadcasting by chatting text scroll 
 
   - Youtube [Sea Story](https://www.youtube.com/@AISea), Long Sea Story [MK02](https://www.youtube.com/channel/UCqHtUNpPZci7VzmiQVMpGJw), [MK03](https://www.youtube.com/channel/UCG5Cx7Bjr29gQ-uq4nFBRcw)
     
-    <img width="300" alt="teaser" src="./data/dataset.jpg">
+    <img width="400" alt="teaser" src="./data/dataset.jpg">
     
   - Table of Dataset Summary
   
-    <img width="300" alt="teaser" src="./data/dataset_info1.jpg">
+    <img width="350" alt="teaser" src="./data/dataset_info1.jpg">
     <img width="300" alt="teaser" src="./data/dataset_info2.jpg">
 
 ### 1. Scene Text Detection
 
   - Naver Clova AI [CRAFT](https://github.com/clovaai/CRAFT-pytorch), General Model
 
-    <img width="300" alt="teaser" src="./data/result/method/Text_detection_1.jpg">
-    <img width="300" alt="teaser" src="./data/result/method/Text_detection_2.jpg">
+    <img width="300" alt="teaser" src="./data/result/Text_detection_1.jpg">
+    <img width="140" alt="teaser" src="./data/result/Text_detection_2.jpg">
 
 ### 2. Coordinate Transformation
 
@@ -51,17 +51,17 @@ A highlight generation method for personal broadcasting by chatting text scroll 
 
   - (distance traveled in a specific chat area) / (time between frames)
   
-    <img width="300" alt="teaser" src="./data/method/chat_scroll_speed_equation.jpg">
+    <img width="350" alt="teaser" src="./data/method/chat_scroll_speed_equation.jpg">
   
   * Q. How to distinguish specific chat text area?
   
     - chat text area ID is the `width` of the bounding box
     
-      <img width="100" alt="teaser" src="./data/method/text_id_width.jpg">
+      <img width="150" alt="teaser" src="./data/method/text_id_width.jpg">
       
     - To distinguish between overlapping widths, the before and after boxes are also checked
     
-      <img width="300" alt="teaser" src="./data/method/before_after_boxes.jpg">
+      <img width="350" alt="teaser" src="./data/method/before_after_boxes.jpg">
       
 
 ## Setup
